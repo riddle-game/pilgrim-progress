@@ -171,7 +171,10 @@ h6 {
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 32px;
+}
+
+.hero .info p span {
+  color: var(--color-primary);
 }
 
 .hero .info h1 {
@@ -181,20 +184,6 @@ h6 {
   position: relative;
 }
 
-.hero .info h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  font-size: 56px;
-  font-weight: 700;
-  position: relative;
-}
-
-.hero .info h2 p {
-  padding: 10px;
-  margin: 0;
-  font-size: 28px;
-}
 
 .hero .info h2:after {
   content: "";
@@ -235,6 +224,61 @@ h6 {
   }
 }
 
+.hero .info h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+}
+
+.hero .info h2 p {
+  padding: 10px;
+  margin: 0;
+  font-size: 24px;
+}
+
+.hero .info p {
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .hero .info h2 {
+    font-size: 30px;
+  }
+  .hero .info p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero .info h2 {
+    font-size: 30px;
+  }
+  .hero .info p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .info h2 {
+    font-size: 30px;
+  }
+  .hero .info p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero .info h2 {
+    font-size: 30px;
+  }
+  .hero .info p {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero .info {
     padding: 0 50px;
@@ -245,7 +289,7 @@ h6 {
   }
 
   .hero .info h2 {
-    font-size: 36px;
+    font-size: 20px;
   }
   .hero .info p {
     font-size: 18px;
